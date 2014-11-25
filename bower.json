@@ -1,0 +1,20 @@
+{
+  "name": "website-wireframe",
+  "version": "0.0.0",
+  "homepage": "https://github.com/laravelquebec/website-wireframe",
+  "authors": [
+    "Vincent Talbot <vincent.talbot@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "jquery": "~2.1.1"
+  }
+}
