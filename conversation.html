@@ -1,0 +1,366 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Laravel Quebec</title>
+  <link rel="stylesheet" href="css/laravel.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only">Basculer la navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a href="index.html" class="navbar-brand">
+					<img src="images/laravel-quebec-logo.svg" alt="Laravel Quebec">
+				</a>
+			</div>
+
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Discussions</a></li>
+					<li><a href="events.html">Événements</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="https://avatars3.githubusercontent.com/u/1474848?v=3&s=40" alt="vtalbot" class="img-circle"> Vincent Talbot <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="profile-signed.html"><i class="fa fa-user fa-li"></i> Profil</a></li>
+							<li><a href="settings.html"><i class="fa fa-cog fa-li"></i> Réglages</a></li>
+							<li class="divider"></li>
+							<li><a href="index.html"><i class="fa fa-sign-out fa-li"></i> Se déconnecter</a></li>
+					</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+  </nav>
+
+	<section class="navbar-channels">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10">
+					<ul class="nav nav-pills">
+						<li class="active"><a href="signed.html">Tout</a></li>
+						<li><a href="#">Général</a></li>
+						<li><a href="#">Amélioration du site</a></li>
+						<li><a href="#">Trucs &amp; Astuces</a></li>
+						<li><a href="#">Aide</a></li>
+						<li><a href="#">Anonces</a></li>
+						<li><a href="#">Packages</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-2 text-right">
+					<a href="new.html" class="btn btn-primary"><i class="fa fa-comment fa-fw"></i> Nouvelle discussion</a>
+				</div>
+			</div>
+		</div>
+	</section>
+  
+  <section class="conversation">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-12">
+  				<h1>Titre de la conversation</h1>
+  			</div>
+  		</div>
+  		
+  		<div class="row">
+  			<div class="col-md-2">
+  				<picture>
+  					<img src="https://avatars3.githubusercontent.com/u/1474848?v=3&s=100" alt="vtalbot" class="img-circle">
+  				</picture>
+  				
+  				<h3>Vincent Talbot</h3>
+  				
+  				<ul class="fa-ul">
+  					<li><i class="fa fa-li fa-comments"></i> 2950</li>
+  					<li><i class="fa fa-li fa-circle"></i> <span class="sr-only">En ligne</span></li>
+  				</ul>
+  			</div>
+  			
+  			<div class="col-md-10">
+					<p>Fusce dapibus, tellus ac cursus commodo, tortor 
+					mauris condimentum nibh, ut fermentum massa justo 
+					sit amet risus. Cras justo odio, dapibus ac facilisis 
+					in, egestas eget quam. Nullam id dolor id nibh ultricies 
+					vehicula ut id elit. Nulla vitae elit libero, a pharetra 
+					augue. Morbi leo risus, porta ac consectetur ac, vestibulum 
+					at eros.</p>
+					<p>Cras mattis consectetur purus sit amet fermentum. Etiam 
+					porta sem malesuada magna mollis euismod. Maecenas sed diam 
+					eget risus varius blandit sit amet non magna. Nullam id dolor 
+					id nibh ultricies vehicula ut id elit. Morbi leo risus, 
+					porta ac consectetur ac, vestibulum at eros. Donec id elit 
+					non mi porta gravida at eget metus. Maecenas sed diam eget 
+					risus varius blandit sit amet non magna.</p>
+					<p><code class="php"><pre>
+class Foo {
+
+	public function bar()
+	{
+		// Foo::bar()
+	}
+	
+}
+					</pre></code></p>
+					<p>Cum sociis natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Donec sed odio dui. Sed 
+					posuere consectetur est at lobortis.</p>
+  			</div>
+  		</div>
+  		
+  		<div class="row answer">
+  			<div class="col-md-2">
+  				<picture>
+  					<img src="https://avatars3.githubusercontent.com/u/1474848?v=3&s=100" alt="vtalbot" class="img-circle">
+  				</picture>
+  				
+  				<h3>Vincent Talbot</h3>
+  				
+  				<ul class="fa-ul">
+  					<li><i class="fa fa-li fa-comments"></i> 2950</li>
+  					<li><i class="fa fa-li fa-circle"></i> <span class="sr-only">En ligne</span></li>
+  				</ul>
+  			</div>
+  			
+  			<div class="col-md-10">
+					<p>Fusce dapibus, tellus ac cursus commodo, tortor 
+					mauris condimentum nibh, ut fermentum massa justo 
+					sit amet risus. Cras justo odio, dapibus ac facilisis 
+					in, egestas eget quam. Nullam id dolor id nibh ultricies 
+					vehicula ut id elit. Nulla vitae elit libero, a pharetra 
+					augue. Morbi leo risus, porta ac consectetur ac, vestibulum 
+					at eros.</p>
+					<p>Cras mattis consectetur purus sit amet fermentum. Etiam 
+					porta sem malesuada magna mollis euismod. Maecenas sed diam 
+					eget risus varius blandit sit amet non magna. Nullam id dolor 
+					id nibh ultricies vehicula ut id elit. Morbi leo risus, 
+					porta ac consectetur ac, vestibulum at eros. Donec id elit 
+					non mi porta gravida at eget metus. Maecenas sed diam eget 
+					risus varius blandit sit amet non magna.</p>
+					<p><code class="php"><pre>
+class Foo {
+
+	public function bar()
+	{
+		// Foo::bar()
+	}
+	
+}
+					</pre></code></p>
+					<p>Cum sociis natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Donec sed odio dui. Sed 
+					posuere consectetur est at lobortis.</p>
+  			</div>
+  		</div>
+  		
+  		<div class="row">
+  			<div class="col-md-2">
+  				<picture>
+  					<img src="https://avatars3.githubusercontent.com/u/1474848?v=3&s=100" alt="vtalbot" class="img-circle">
+  				</picture>
+  				
+  				<h3>Vincent Talbot</h3>
+  				
+  				<ul class="fa-ul">
+  					<li><i class="fa fa-li fa-comments"></i> 2950</li>
+  					<li><i class="fa fa-li fa-circle"></i> <span class="sr-only">En ligne</span></li>
+  					<li>
+  						<a href="#" class="btn btn-default">
+  							<i class="fa fa-li fa-thumbs-up"></i>
+  							Bonne réponse
+							</a>
+						</li>
+  				</ul>
+  			</div>
+  			
+  			<div class="col-md-10">
+					<p>Fusce dapibus, tellus ac cursus commodo, tortor 
+					mauris condimentum nibh, ut fermentum massa justo 
+					sit amet risus. Cras justo odio, dapibus ac facilisis 
+					in, egestas eget quam. Nullam id dolor id nibh ultricies 
+					vehicula ut id elit. Nulla vitae elit libero, a pharetra 
+					augue. Morbi leo risus, porta ac consectetur ac, vestibulum 
+					at eros.</p>
+					<p>Cras mattis consectetur purus sit amet fermentum. Etiam 
+					porta sem malesuada magna mollis euismod. Maecenas sed diam 
+					eget risus varius blandit sit amet non magna. Nullam id dolor 
+					id nibh ultricies vehicula ut id elit. Morbi leo risus, 
+					porta ac consectetur ac, vestibulum at eros. Donec id elit 
+					non mi porta gravida at eget metus. Maecenas sed diam eget 
+					risus varius blandit sit amet non magna.</p>
+					<p><code class="php"><pre>
+class Foo {
+
+	public function bar()
+	{
+		// Foo::bar()
+	}
+	
+}
+					</pre></code></p>
+					<p>Cum sociis natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Donec sed odio dui. Sed 
+					posuere consectetur est at lobortis.</p>
+  			</div>
+  		</div>
+  		
+  		<div class="row">
+  			<div class="col-md-2">
+  				<picture>
+  					<img src="https://avatars3.githubusercontent.com/u/1474848?v=3&s=100" alt="vtalbot" class="img-circle">
+  				</picture>
+  				
+  				<h3>Vincent Talbot</h3>
+  				
+  				<ul class="fa-ul">
+  					<li><i class="fa fa-li fa-comments"></i> 2950</li>
+  					<li><i class="fa fa-li fa-circle"></i> <span class="sr-only">En ligne</span></li>
+  					<li>
+  						<a href="#" class="btn btn-default">
+  							<i class="fa fa-li fa-thumbs-up"></i>
+  							Bonne réponse
+							</a>
+						</li>
+  				</ul>
+  			</div>
+  			
+  			<div class="col-md-10">
+					<p>Fusce dapibus, tellus ac cursus commodo, tortor 
+					mauris condimentum nibh, ut fermentum massa justo 
+					sit amet risus. Cras justo odio, dapibus ac facilisis 
+					in, egestas eget quam. Nullam id dolor id nibh ultricies 
+					vehicula ut id elit. Nulla vitae elit libero, a pharetra 
+					augue. Morbi leo risus, porta ac consectetur ac, vestibulum 
+					at eros.</p>
+					<p>Cras mattis consectetur purus sit amet fermentum. Etiam 
+					porta sem malesuada magna mollis euismod. Maecenas sed diam 
+					eget risus varius blandit sit amet non magna. Nullam id dolor 
+					id nibh ultricies vehicula ut id elit. Morbi leo risus, 
+					porta ac consectetur ac, vestibulum at eros. Donec id elit 
+					non mi porta gravida at eget metus. Maecenas sed diam eget 
+					risus varius blandit sit amet non magna.</p>
+					<p><code class="php"><pre>
+class Foo {
+
+	public function bar()
+	{
+		// Foo::bar()
+	}
+	
+}
+					</pre></code></p>
+					<p>Cum sociis natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Donec sed odio dui. Sed 
+					posuere consectetur est at lobortis.</p>
+  			</div>
+  		</div>
+  	</div>
+  	
+  	<div class="container">
+  		<form action="#" class="form">
+  			<div class="row">
+  				<div class="col-md-2">
+						<picture>
+							<img src="https://avatars3.githubusercontent.com/u/1474848?v=3&s=100" alt="vtalbot" class="img-circle">
+						</picture>
+  				</div>
+  				
+  				<div class="col-md-10">
+  					<div role="tabpanel">
+
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active"><a href="#code" aria-controls="home" role="tab" data-toggle="tab">Message</a></li>
+								<li role="presentation"><a href="#preview" aria-controls="profile" role="tab" data-toggle="tab">Prévisualiser</a></li>
+							</ul>
+
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane active" id="code">
+									<textarea name="message" id="message" rows="10" class="form-control">
+Nullam quis risus eget urna mollis ornare vel 
+eu leo. Donec id elit non mi porta gravida at 
+eget metus.
+
+```php
+class Foo {
+
+	public function bar()
+	{
+		// Foo::bar()
+	}
+}
+```
+									</textarea>
+								</div>
+								
+								<div role="tabpanel" class="tab-pane" id="preview">
+									<p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus.</p>
+									<p><code class="php"><pre>
+class Foo {
+	
+	public function bar()
+	{
+		// Foo::bar()
+	}
+}
+									</pre></code></p>
+								</div>
+							</div>
+
+						</div>
+						
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary">
+								<i class="fa fa-comment fa-fw"></i>
+								Répondre
+							</button>
+						</div>
+  				</div>
+  			</div>
+  		</form>
+  	</div>
+  </section>
+
+  <footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p class="concept">
+						Conçu avec <i class="fa fa-heart"></i>
+						<span class="sr-only">amour</span>
+						et <i class="fa fa-laravel"></i>
+						<span class="sr-only">Laravel</span> par
+						<a href="profile.html">Vincent Talbot</a>.
+					</p>
+				</div>
+
+				<div class="col-md-4">
+					<p class="hosting">
+						Hébergé avec <a href="https://forge.laravel.com"><i class="fa fa-forge"></i>
+						<span class="sr-only">Forge</span></a> et
+						<a href="https://www.digitalocean.com/?refcode=a3a2a867d4c8"><i class="fa fa-digitalocean"></i>
+						<span class="sr-only">DigitalOcean</span></a>.
+					</p>
+				</div>
+
+				<div class="col-md-2">
+					<p class="socials">
+						<a href="https://github.com/laravelquebec" class="btn btn-github"><i class="fa fa-github"></i><span class="sr-only">Github</span></a>
+						<a href="https://twitter.com/laravelquebec" class="btn btn-twitter"><i class="fa fa-twitter"></i><span class="sr-only">Twitter</span></a>
+					</p>
+				</div>
+			</div>
+		</div>
+  </footer>
+</body>
+</html>

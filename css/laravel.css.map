@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "laravel.css",
+  "sources": [
+    "laravel.scss"
+  ],
+  "names": [],
+  "mappings": ";AAAA;EACC,kBAAkB",
+  "sourceRoot": "../sass/"
+}
