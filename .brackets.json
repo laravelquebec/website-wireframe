@@ -4,14 +4,16 @@
             "sass.enabled": true,
             "sass.options": {
                 "includePaths": [
-                  	
+                    "../bower_components/bootstrap-sass-official/assets/stylesheets",
+                    "../bower_components/fontawesome/scss"
                 ],
                 "outputDir": "../css/",
                 "imagePath": null,
                 "sourceComments": "map",
                 "outputStyle": "nested"
             },
-            "linting.collapsed": false
+            "linting.collapsed": false,
+            "brackets-git.gitPath": "/usr/bin/git"
         }
     }
 }

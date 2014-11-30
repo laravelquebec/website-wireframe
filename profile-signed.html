@@ -7,7 +7,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -24,8 +24,8 @@
 
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Discussions</a></li>
-					<li><a href="events.html">Événements</a></li>
+					<li><a href="index.html"><span>Discussions</span></a></li>
+					<li><a href="events.html"><span>Événements</span></a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -165,36 +165,32 @@
   	</div>
   </section>
 
-  <footer>
+  <footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
-					<p class="concept">
+				<div class="col-md-10">
+					<p>
 						Conçu avec <i class="fa fa-heart"></i>
 						<span class="sr-only">amour</span>
-						et <i class="fa fa-laravel"></i>
+						et <i class="la la-laravel"></i>
 						<span class="sr-only">Laravel</span> par
 						<a href="profile.html">Vincent Talbot</a>.
+						Hébergé avec <a href="https://forge.laravel.com"><i class="la la-forge"></i><span class="sr-only">Forge</span></a> et
+						<a href="https://www.digitalocean.com/?refcode=a3a2a867d4c8"><i class="la la-digitalocean"></i><span class="sr-only">DigitalOcean</span></a>.
 					</p>
 				</div>
 
-				<div class="col-md-4">
-					<p class="hosting">
-						Hébergé avec <a href="https://forge.laravel.com"><i class="fa fa-forge"></i>
-						<span class="sr-only">Forge</span></a> et
-						<a href="https://www.digitalocean.com/?refcode=a3a2a867d4c8"><i class="fa fa-digitalocean"></i>
-						<span class="sr-only">DigitalOcean</span></a>.
-					</p>
-				</div>
-
-				<div class="col-md-2">
-					<p class="socials">
-						<a href="https://github.com/laravelquebec" class="btn btn-github"><i class="fa fa-github"></i><span class="sr-only">Github</span></a>
-						<a href="https://twitter.com/laravelquebec" class="btn btn-twitter"><i class="fa fa-twitter"></i><span class="sr-only">Twitter</span></a>
+				<div class="col-md-2 text-right">
+					<p>
+						<a href="https://github.com/laravelquebec" class="btn btn-github btn-default" title="Github"><i class="fa fa-github fa-fw"></i><span class="sr-only">Github</span></a>
+						<a href="https://twitter.com/laravelquebec" class="btn btn-twitter btn-default" title="Twitter"><i class="fa fa-twitter fa-fw"></i><span class="sr-only">Twitter</span></a>
 					</p>
 				</div>
 			</div>
 		</div>
   </footer>
+  
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
 </body>
 </html>
