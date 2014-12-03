@@ -8405,8 +8405,7 @@ html {
         color: #fff; }
       /* line 42, /Users/vtalbot/Projects/laravel.quebec/website-wireframe/sass/laravel/navbar */
       .navbar .navbar-nav a.btn.btn-primary .fa {
-        font-size: 1.3em;
-        line-height: 0; }
+        font-size: 1.3em; }
 
 /* line 1, /Users/vtalbot/Projects/laravel.quebec/website-wireframe/sass/laravel/channels */
 .navbar-channels {
